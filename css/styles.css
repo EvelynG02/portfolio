@@ -1,0 +1,142 @@
+
+
+h1.a {font-family: "Notosans", sans-serif;}
+h1.b {font-family: "Figtree", sans-serif;}
+h1.c {font-family: "Bodonimoda", serif;}
+
+body, html{
+  margin:0;
+  padding:0;
+}
+p.classwebsites {text-align: center;}
+/* Big
+-------------------------------------------------- */
+header{
+  position: fixed;
+  background:white;
+  z-index:999;
+  top: 0;
+  height: calc(100vh + 2px);
+  width: 100%;
+  transition: all 1s;
+  border-bottom:0px;
+  font-family: "Figtree", sans-serif;
+  
+}
+            
+header .titre{
+  font-family: "Figtree", sans-serif;
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:0;
+  text-align:center;
+  height:calc(100vh - 2px);
+  transition:all 1s;
+  
+  font-weight: bold;
+}
+header .titre h1{
+  font-family: "Figtree", sans-serif;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  letter-spacing:-.025em;
+  transition:all 1s;
+  margin-bottom: 0px;
+  padding:0;
+  font-size: 24vw;
+  color: rgba(145,177,92,1);
+  font-weight: bold;
+}
+
+main {
+  border-top:0px solid rgb(0, 0, 0);
+  width: 100%;
+  font-size:5vw;
+  display: inline-block;
+  height:auto;
+  line-height:1em;
+  text-align:left;
+  background:#ccc;
+  margin-top:5vh;
+  transition: all 1s;
+}
+
+/* Small
+ -------------------------------------------------- */
+body.small header .titre{
+  padding:0; 
+} 
+body.small main{
+  margin-top:100px;
+  } 
+body.small header{
+  font-size: 15px;
+  height: 100px;
+  
+}
+body.small header .titre h1{
+  font:65pt/1.2em "Figtree", sans-serif;
+color: black;
+  font-weight: bold; }
+
+
+
+
+  main {
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(215,231,188,1) 85%, rgba(145,177,92,1) 100%);
+    font-family: "Notosans", sans-serif;
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+  }
+  p {
+    color: rgb(0, 0, 0);
+  }
+  ol {
+    list-style-type:none;
+  }
+  div{
+    text-align: center;
+}
+a{
+    display: inline;
+}
+/* unvisited link */
+a:link {
+    color: rgba(88,56,117,1) ;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(145,177,92,1);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgba(194,166,219,1);
+  }
+  
+  /* selected link */
+  a:active {
+    color:  rgba(88,56,117,1);
+  }
+
+ .name {
+  text-align: left;
+
+
+ }
+ .underline {
+  font-weight: bold;
+}
+  
+  ul {
+    font-size: 1.5vw;
+    line-height: 1.75em;
+  }
+  .onlyunderwhite{
+  display: center;}
