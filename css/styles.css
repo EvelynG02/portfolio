@@ -1,7 +1,7 @@
 
 
 h1.a {font-family: "Notosans", sans-serif;}
-h1.b {font-family: "Figtree", sans-serif;}
+h1.b {font-family: "Notosans", sans-serif;}
 h1.c {font-family: "Bodonimoda", serif;}
 
 body, html{
@@ -13,19 +13,33 @@ p.classwebsites {text-align: center;}
 -------------------------------------------------- */
 header{
   position: fixed;
-  background:white;
+  background:rgb(255, 255, 255);
   z-index:999;
   top: 0;
   height: calc(100vh + 2px);
   width: 100%;
-  transition: all 1s;
+  transition: all 3s;
   border-bottom:0px;
-  font-family: "Figtree", sans-serif;
-  
+  font-family: "Notosans", sans-serif;
+margin-bottom: 30px;
 }
+/* menu
+-------------------------------------------------- */
+h2{
+    position:relative;
+    background:rgba(255, 255, 255, 0);
+    z-index:999;
+    top: 0;
+    height: calc(100vh + 2px);
+    width: 100%;
+    transition: all 6s;
+    border-bottom:0px;
+    margin-top: 30%;
+    font-family: "Notosans", sans-serif;
+  }
             
 header .titre{
-  font-family: "Figtree", sans-serif;
+  font-family: "Notosans", sans-serif;
   position:absolute;
   bottom:0;
   left:0;
@@ -38,7 +52,7 @@ header .titre{
   font-weight: bold;
 }
 header .titre h1{
-  font-family: "Figtree", sans-serif;
+  font-family: "Notosans", sans-serif;
   position:absolute;
   bottom:0;
   width: 100%;
@@ -51,6 +65,38 @@ header .titre h1{
   font-weight: bold;
 }
 
+ /* menu
+-------------------------------------------------- */
+
+h2 .titre{
+    font-family: "Notosans", sans-serif;
+    position:relative;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0;
+    text-align:center;
+    height:calc(100vh - 2px);
+    transition:all 1s;
+    margin-top:  30%;
+    
+    font-weight: bold;
+  }
+h2 .titre h1{
+    font-family: "Notosans", sans-serif;
+    position:relative;
+    bottom:0;
+    width: 100%;
+    letter-spacing:-.025em;
+    transition:all 6s;
+    margin-bottom: 0px;
+    padding:0;
+    font-size: 24vw;
+    color: rgba(145,177,92,1);
+    font-weight: bold;
+   margin-top:140%;
+  }
+  
 main {
   border-top:0px solid rgb(0, 0, 0);
   width: 100%;
@@ -60,28 +106,72 @@ main {
   line-height:1em;
   text-align:left;
   background:#ccc;
-  margin-top:5vh;
+  margin-top:15vh;
   transition: all 1s;
 }
 
 /* Small
  -------------------------------------------------- */
+ /* menu
+-------------------------------------------------- */
+
+ body.small h2 .titre{
+    padding:0; 
+  } 
+  body.small main{
+    margin-top:20%;
+    } 
+  body.small h2{
+    font-size: 15px;
+    height: 100px;
+    
+  }
+  body.small h2 .titre h1{
+    font:65pt/1.2em "Notosans", sans-serif;
+  color: black;
+    font-weight: bold; 
+margin-top: 10%;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header
+-------------------------------------------------- */  
+
 body.small header .titre{
   padding:0; 
 } 
 body.small main{
   margin-top:100px;
+  
   } 
 body.small header{
   font-size: 15px;
   height: 100px;
-  
+  margin-bottom:100px;
 }
 body.small header .titre h1{
-  font:65pt/1.2em "Figtree", sans-serif;
+  font:65pt/1.2em "Notosans", sans-serif;
 color: black;
   font-weight: bold; }
 
+
+
+
+
+/* rest of styling
+-------------------------------------------------- */  
 
 
 
